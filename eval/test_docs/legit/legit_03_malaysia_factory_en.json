@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_03_malaysia_factory_en",
+  "language": "en",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "Malaysia",
+    "confidence": 0.98,
+    "source_snippet": "Work Location: Penang, Malaysia"
+  },
+  "employer": {
+    "value": "Top Precision Electronics Sdn. Bhd.",
+    "confidence": 0.97,
+    "source_snippet": "Employer: Top Precision Electronics Sdn. Bhd."
+  },
+  "employer_address": {
+    "value": "Bayan Lepas Industrial Zone, Penang, Malaysia",
+    "confidence": 0.96,
+    "source_snippet": "Address: Bayan Lepas Industrial Zone, Penang"
+  },
+  "job_title": {
+    "value": "Electronics Assembly Worker",
+    "confidence": 0.97,
+    "source_snippet": "Position: Electronics Assembly Worker"
+  },
+  "salary_amount": {
+    "value": 1800,
+    "confidence": 0.98,
+    "source_snippet": "Monthly Salary: 1,800 MYR"
+  },
+  "salary_currency": {
+    "value": "MYR",
+    "confidence": 0.98,
+    "source_snippet": "1,800 MYR"
+  },
+  "fee_asked": {
+    "value": 120000,
+    "confidence": 0.92,
+    "source_snippet": "Recruitment Processing Cost: BDT 1,20,000"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "BDT 1,20,000"
+  },
+  "visa_type": {
+    "value": "Calling Visa Work Permit",
+    "confidence": 0.98,
+    "source_snippet": "Visa Type: Calling Visa Employment Pass"
+  },
+  "duration": {
+    "value": "3 Years",
+    "confidence": 0.96,
+    "source_snippet": "Duration: 36 Months renewable"
+  },
+  "working_hours": {
+    "value": "8 hours/day, 48 hours/week",
+    "confidence": 0.95,
+    "source_snippet": "Working Hours: 8 hours/day"
+  },
+  "accommodation": {
+    "value": "Hostel provided with utilities",
+    "confidence": 0.95,
+    "source_snippet": "Hostel provided free by employer"
+  },
+  "return_ticket": {
+    "value": "Provided at end of contract",
+    "confidence": 0.95,
+    "source_snippet": "Return flight covered by employer"
+  },
+  "agent_name": {
+    "value": "Green Crescent Overseas",
+    "confidence": 0.94,
+    "source_snippet": "Agency: Green Crescent Overseas"
+  },
+  "license_number": {
+    "value": "RL-2345",
+    "confidence": 0.96,
+    "source_snippet": "BMET RL No: RL-2345"
+  },
+  "payment_method": {
+    "value": "Bank transfer to agency account",
+    "confidence": 0.93,
+    "source_snippet": "Bank pay order with money receipt"
+  },
+  "contact_channel": {
+    "value": "Head Office, Bijoynagar, Dhaka",
+    "confidence": 0.92,
+    "source_snippet": "Office: Level 4, Bijoynagar, Dhaka"
+  },
+  "raw_red_flag_clauses": []
+}

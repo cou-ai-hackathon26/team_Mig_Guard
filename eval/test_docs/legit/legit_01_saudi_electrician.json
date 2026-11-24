@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_01_saudi_electrician",
+  "language": "en",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "Saudi Arabia",
+    "confidence": 0.98,
+    "source_snippet": "Place of Work: Riyadh, Kingdom of Saudi Arabia"
+  },
+  "employer": {
+    "value": "Al-Riyadh Electro-Mechanical Co. Ltd.",
+    "confidence": 0.97,
+    "source_snippet": "Employer: Al-Riyadh Electro-Mechanical Co. Ltd."
+  },
+  "employer_address": {
+    "value": "Industrial Area 2, Riyadh, KSA",
+    "confidence": 0.95,
+    "source_snippet": "Address: Industrial Area 2, Riyadh, KSA"
+  },
+  "job_title": {
+    "value": "Industrial Electrician",
+    "confidence": 0.98,
+    "source_snippet": "Position: Industrial Electrician"
+  },
+  "salary_amount": {
+    "value": 1800,
+    "confidence": 0.99,
+    "source_snippet": "Basic Monthly Salary: 1,800 SAR"
+  },
+  "salary_currency": {
+    "value": "SAR",
+    "confidence": 0.99,
+    "source_snippet": "Basic Monthly Salary: 1,800 SAR"
+  },
+  "fee_asked": {
+    "value": 165000,
+    "confidence": 0.92,
+    "source_snippet": "Total Migration Cost: BDT 1,65,000 via Bank"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "BDT 1,65,000"
+  },
+  "visa_type": {
+    "value": "Employment Work Visa",
+    "confidence": 0.98,
+    "source_snippet": "Visa Category: Employment Work Visa"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "Contract Period: 24 Months"
+  },
+  "working_hours": {
+    "value": "8 hours/day, 6 days/week",
+    "confidence": 0.95,
+    "source_snippet": "Working Hours: 8 hours daily, 48 hours weekly"
+  },
+  "accommodation": {
+    "value": "Provided free by employer",
+    "confidence": 0.96,
+    "source_snippet": "Accommodation: Free company housing provided"
+  },
+  "return_ticket": {
+    "value": "Provided upon contract completion",
+    "confidence": 0.95,
+    "source_snippet": "Return Air Ticket: Provided by employer after 2 years"
+  },
+  "agent_name": {
+    "value": "Padma Overseas Recruiting Ltd.",
+    "confidence": 0.94,
+    "source_snippet": "Recruiting Agency: Padma Overseas Recruiting Ltd."
+  },
+  "license_number": {
+    "value": "RL-1234",
+    "confidence": 0.95,
+    "source_snippet": "BMET License No: RL-1234"
+  },
+  "payment_method": {
+    "value": "Official agency bank account with receipt",
+    "confidence": 0.94,
+    "source_snippet": "Payment via bank draft with official receipt"
+  },
+  "contact_channel": {
+    "value": "Registered Dhaka Office & Landline",
+    "confidence": 0.93,
+    "source_snippet": "Office: 45 Kakrail, Dhaka"
+  },
+  "raw_red_flag_clauses": []
+}

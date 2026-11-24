@@ -1,0 +1,66 @@
+[
+  {
+    "id": "oe-act-s21-fee-cap",
+    "title": "Maximum migration cost",
+    "keywords": ["fee", "cost", "cap", "charge", "bdt", "recruitment fee", "migration cost"],
+    "text": "Section 21 of the Overseas Employment and Migrants Act 2013 lets the Government of Bangladesh set a maximum migration cost for overseas employment. A recruiting agent must not collect more than the posted ceiling for that destination. Ask to see the posted figure and a proper receipt.",
+    "source": "Overseas Employment and Migrants Act 2013, section 21",
+    "source_url": "https://bdlaws.minlaw.gov.bd/act-1131/section-43288.html"
+  },
+  {
+    "id": "licensed-agent-required",
+    "title": "Only a licensed recruiting agent",
+    "keywords": ["license", "licence", "rl", "agency", "agent", "bmet", "unlicensed"],
+    "text": "A recruiting agency in Bangladesh may send workers only with a government licence (an RL number) under the Overseas Employment and Migrants Act 2013. Check the name, RL number and status on the public BMET RAIMS list before paying anyone. A missing, expired or cancelled licence is a serious warning.",
+    "source": "BMET RAIMS / Overseas Employment Platform",
+    "source_url": "https://raims.oep.gov.bd/agencies"
+  },
+  {
+    "id": "contract-must-be-written",
+    "title": "What a contract should contain",
+    "keywords": ["missing", "clause", "contract", "hours", "duration", "accommodation", "employer", "job title"],
+    "text": "A worker should have a written job contract before leaving. It should name the employer, job title, wages, hours, duration, accommodation, medical care, and how the worker can return home. If these items are missing, treat the offer as incomplete and ask the agent in writing.",
+    "source": "ILO fair recruitment guidance; project knowledge base",
+    "source_url": "https://www.ilo.org/topics/fair-recruitment"
+  },
+  {
+    "id": "unrealistic-pay",
+    "title": "Pay that is far above the usual range",
+    "keywords": ["salary", "wage", "pay", "unrealistic", "high salary", "benchmark"],
+    "text": "Offers that promise very high pay for ordinary work, with no skills asked, are a common lure. Compare the stated wage with typical public ranges for that country and job. An extreme figure is a reason to pause, not a reason to pay quickly.",
+    "source": "ILO wage and fair recruitment materials; project screening ranges",
+    "source_url": "https://www.ilo.org/global/topics/wages/lang--en/index.htm"
+  },
+  {
+    "id": "receipt-and-bank",
+    "title": "Pay only against a receipt",
+    "keywords": ["cash", "receipt", "payment", "mobile money", "bKash", "nagad"],
+    "text": "If money is collected, it should go through a traceable channel and you should get a stamped receipt that names the licensed agency. Cash-only or personal mobile-money payments make it hard to recover money later.",
+    "source": "Recruiting-agent practice rules summarised from public ministry guidance",
+    "source_url": "https://bmet.gov.bd/"
+  },
+  {
+    "id": "never-says-safe",
+    "title": "Checks are not a safety stamp",
+    "keywords": ["verify", "bmet", "helpline", "fewer concerns"],
+    "text": "A document check cannot prove that a job is safe. Even when fewer concerns are found, confirm the demand and the agency with BMET and keep copies of everything. Call 16135 if you are unsure.",
+    "source": "BMET helpline listing on bmet.gov.bd",
+    "source_url": "https://bmet.gov.bd/"
+  },
+  {
+    "id": "scam-compound-lure",
+    "title": "Online jobs and high pay in high-risk destinations",
+    "keywords": ["cambodia", "myanmar", "laos", "data entry", "crypto", "online job"],
+    "text": "Public reporting has linked some 'easy online work' offers in parts of Southeast Asia with trafficking into scam compounds. High pay, no qualifications, tourist visas and pressure to fly quickly are warning signs. Verify through official channels before any payment or travel.",
+    "source": "Public reporting on technology-facilitated trafficking",
+    "source_url": "https://globalvoices.org/"
+  },
+  {
+    "id": "helpline-16135",
+    "title": "Where to call",
+    "keywords": ["helpline", "16135", "complaint", "bmet"],
+    "text": "The Probashbandhu call centre is 16135 (toll-free in Bangladesh) and +88 09610 102 030 from abroad. BMET also lists 02-49357972. These numbers are for information and complaints, not a substitute for checking the written demand.",
+    "source": "bmet.gov.bd",
+    "source_url": "https://bmet.gov.bd/"
+  }
+]

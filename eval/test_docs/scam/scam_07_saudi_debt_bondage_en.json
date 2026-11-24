@@ -1,0 +1,95 @@
+{
+  "doc_id": "scam_07_saudi_debt_bondage_en",
+  "language": "en",
+  "document_type": "offer_letter",
+  "destination": {
+    "value": "Saudi Arabia",
+    "confidence": 0.98,
+    "source_snippet": "Location: Jeddah, Kingdom of Saudi Arabia"
+  },
+  "employer": {
+    "value": "Modern Services Establishment",
+    "confidence": 0.8,
+    "source_snippet": "Employer: Modern Services Establishment"
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Cleaning Staff",
+    "confidence": 0.96,
+    "source_snippet": "Role: Cleaning Staff"
+  },
+  "salary_amount": {
+    "value": 1200,
+    "confidence": 0.97,
+    "source_snippet": "Basic Salary: 1,200 SAR"
+  },
+  "salary_currency": {
+    "value": "SAR",
+    "confidence": 0.97,
+    "source_snippet": "1,200 SAR"
+  },
+  "fee_asked": {
+    "value": 250000,
+    "confidence": 0.91,
+    "source_snippet": "Initial Payment: BDT 2,50,000"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.91,
+    "source_snippet": "BDT 2,50,000"
+  },
+  "visa_type": {
+    "value": "Azad Freelance Visa",
+    "confidence": 0.95,
+    "source_snippet": "Visa: Azad Freelance Visa"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "return_ticket": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "agent_name": {
+    "value": "Jeddah Travel Line",
+    "confidence": 0.8,
+    "source_snippet": "Agency: Jeddah Travel Line"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Cash without receipt",
+    "confidence": 0.94,
+    "source_snippet": "Cash payment directly to broker"
+  },
+  "contact_channel": {
+    "value": "WhatsApp only",
+    "confidence": 0.93,
+    "source_snippet": "Contact only via WhatsApp number"
+  },
+  "raw_red_flag_clauses": [
+    "Employer will deduct visa cost and processing fee from monthly salary.",
+    "Worker will sign formal contract after arrival in Jeddah.",
+    "Company will keep passport for safety."
+  ]
+}

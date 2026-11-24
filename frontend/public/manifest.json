@@ -1,0 +1,16 @@
+{
+  "name": "Mig_Guard - Job Offer Checker for Migrant Workers",
+  "short_name": "Mig_Guard",
+  "description": "Verify overseas job offers, detect scams, and understand recruitment terms in Bangla.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12617b",
+  "theme_color": "#12617b",
+  "icons": [
+    {
+      "src": "/globe.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

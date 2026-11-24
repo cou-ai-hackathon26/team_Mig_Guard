@@ -1,0 +1,94 @@
+{
+  "doc_id": "scam_12_malaysia_hand_to_hand_bn",
+  "language": "bn",
+  "document_type": "social_post",
+  "destination": {
+    "value": "Malaysia",
+    "confidence": 0.97,
+    "source_snippet": "মালয়েশিয়া সেলানগর"
+  },
+  "employer": {
+    "value": "Global Star Services",
+    "confidence": 0.75,
+    "source_snippet": "কোম্পানি: গ্লোবাল স্টার"
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Packing Worker",
+    "confidence": 0.96,
+    "source_snippet": "প্যাকিং ও ডেলিভারি কাজ"
+  },
+  "salary_amount": {
+    "value": 1600,
+    "confidence": 0.96,
+    "source_snippet": "বেতন: ১৬০০ রিঙ্গিত"
+  },
+  "salary_currency": {
+    "value": "MYR",
+    "confidence": 0.96,
+    "source_snippet": "১৬০০ MYR"
+  },
+  "fee_asked": {
+    "value": 380000,
+    "confidence": 0.93,
+    "source_snippet": "টাকা: ৩,৮০,০০০ নগদ"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.93,
+    "source_snippet": "৩,৮০,০০০ BDT"
+  },
+  "visa_type": {
+    "value": "Tourist Visa",
+    "confidence": 0.98,
+    "source_snippet": "ট্যুরিস্ট ভিসায় যেতে হবে"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "return_ticket": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "agent_name": {
+    "value": "Sohag Facebook Agent",
+    "confidence": 0.8,
+    "source_snippet": "সোহাগ ভাই"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "হাতে হাতে নগদ টাকা কোনো রসিদ ছাড়া",
+    "confidence": 0.95,
+    "source_snippet": "হাতে হাতে ক্যাশ টাকা দিন, নো ব্যাংক নো রসিদ"
+  },
+  "contact_channel": {
+    "value": "Facebook Messenger & WhatsApp",
+    "confidence": 0.94,
+    "source_snippet": "ফেসবুক মেসেঞ্জার"
+  },
+  "raw_red_flag_clauses": [
+    "বিদেশে পৌঁছানোর পর চুক্তি সই হবে।",
+    "ভিসা খরচের টাকা বেতন কেটে সমন্বয় করা হবে।"
+  ]
+}

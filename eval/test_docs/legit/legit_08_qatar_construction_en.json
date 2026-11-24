@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_08_qatar_construction_en",
+  "language": "en",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "Qatar",
+    "confidence": 0.98,
+    "source_snippet": "Country of Employment: State of Qatar"
+  },
+  "employer": {
+    "value": "Doha Modern Contracting WLL",
+    "confidence": 0.97,
+    "source_snippet": "Employer: Doha Modern Contracting WLL"
+  },
+  "employer_address": {
+    "value": "Industrial Area Street 15, Doha, Qatar",
+    "confidence": 0.95,
+    "source_snippet": "Office: Street 15, Industrial Area, Doha"
+  },
+  "job_title": {
+    "value": "Construction Carpenter",
+    "confidence": 0.98,
+    "source_snippet": "Trade: Construction Carpenter"
+  },
+  "salary_amount": {
+    "value": 1600,
+    "confidence": 0.98,
+    "source_snippet": "Basic Wage: 1,600 QAR per month"
+  },
+  "salary_currency": {
+    "value": "QAR",
+    "confidence": 0.98,
+    "source_snippet": "1,600 QAR"
+  },
+  "fee_asked": {
+    "value": 130000,
+    "confidence": 0.91,
+    "source_snippet": "Registration & Processing Fee: BDT 1,30,000"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.91,
+    "source_snippet": "BDT"
+  },
+  "visa_type": {
+    "value": "Ministry of Labour Work Visa",
+    "confidence": 0.98,
+    "source_snippet": "Visa: Qatar Employment Work Visa"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "Term: 2 Years"
+  },
+  "working_hours": {
+    "value": "8 hours/day, 48 hours/week",
+    "confidence": 0.95,
+    "source_snippet": "Hours: 8 hours per day"
+  },
+  "accommodation": {
+    "value": "Free camp accommodation provided",
+    "confidence": 0.95,
+    "source_snippet": "Housing provided free by company"
+  },
+  "return_ticket": {
+    "value": "Air ticket upon completion of term",
+    "confidence": 0.95,
+    "source_snippet": "Return ticket provided by employer"
+  },
+  "agent_name": {
+    "value": "Gulf Resource Management",
+    "confidence": 0.94,
+    "source_snippet": "Agent: Gulf Resource Management"
+  },
+  "license_number": {
+    "value": "RL-9900",
+    "confidence": 0.96,
+    "source_snippet": "BMET License: RL-9900"
+  },
+  "payment_method": {
+    "value": "Agency bank account with receipt",
+    "confidence": 0.93,
+    "source_snippet": "Bank deposit with official voucher"
+  },
+  "contact_channel": {
+    "value": "Kakrail, Dhaka",
+    "confidence": 0.92,
+    "source_snippet": "Office: Kakrail VIP Road, Dhaka"
+  },
+  "raw_red_flag_clauses": []
+}

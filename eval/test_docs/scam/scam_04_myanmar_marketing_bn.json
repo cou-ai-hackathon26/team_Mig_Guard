@@ -1,0 +1,94 @@
+{
+  "doc_id": "scam_04_myanmar_marketing_bn",
+  "language": "bn",
+  "document_type": "social_post",
+  "destination": {
+    "value": "Myanmar",
+    "confidence": 0.98,
+    "source_snippet": "কর্মস্থল: মায়ানমার সীমান্ত এলাকা"
+  },
+  "employer": {
+    "value": null,
+    "confidence": 0.15,
+    "source_snippet": null
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Online Marketing Executive",
+    "confidence": 0.97,
+    "source_snippet": "কাজের ধরন: অনলাইন মার্কেটিং ও কাস্টমার সার্ভিস"
+  },
+  "salary_amount": {
+    "value": 2500,
+    "confidence": 0.98,
+    "source_snippet": "বেতন: ২৫০০ ডলার প্রতি মাসে"
+  },
+  "salary_currency": {
+    "value": "USD",
+    "confidence": 0.98,
+    "source_snippet": "২৫০০ USD"
+  },
+  "fee_asked": {
+    "value": 0,
+    "confidence": 0.9,
+    "source_snippet": "ফ্রি ভিসা এবং ফ্রি টিকিট"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.9,
+    "source_snippet": "ফ্রি"
+  },
+  "visa_type": {
+    "value": "Visit Visa",
+    "confidence": 0.98,
+    "source_snippet": "ভিজিট ভিসায় দ্রুত যাওয়া যাবে"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": "Free food and accommodation",
+    "confidence": 0.85,
+    "source_snippet": "থাকা খাওয়া ফ্রি"
+  },
+  "return_ticket": {
+    "value": "Free ticket",
+    "confidence": 0.92,
+    "source_snippet": "ফ্রি টিকিট"
+  },
+  "agent_name": {
+    "value": "Global Career FB Page",
+    "confidence": 0.8,
+    "source_snippet": "ফেসবুক পেজ গ্লোবাল ক্যারিয়ার"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Personal Nagad number",
+    "confidence": 0.94,
+    "source_snippet": "ব্যক্তিগত নগদ নম্বরে ২৫,০০০ টাকা পাঠান"
+  },
+  "contact_channel": {
+    "value": "WhatsApp & Facebook",
+    "confidence": 0.95,
+    "source_snippet": "শুধুমাত্র হোয়াটসঅ্যাপে যোগাযোগ করুন"
+  },
+  "raw_red_flag_clauses": [
+    "আজই টাকা দিন, সীমিত সিট বাকি!",
+    "বিদেশে পৌঁছানোর পর মূল চুক্তিপত্র দেওয়া হবে।"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_05_saudi_driver_bn",
+  "language": "bn",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "Saudi Arabia",
+    "confidence": 0.98,
+    "source_snippet": "কর্মস্থল: দাম্মাম, সৌদি আরব"
+  },
+  "employer": {
+    "value": "Al-Khobar Logistics Transport Co.",
+    "confidence": 0.97,
+    "source_snippet": "নিয়োগকারী: আল-খোবার লজিস্টিকস"
+  },
+  "employer_address": {
+    "value": "Dammam Highway, Al-Khobar, KSA",
+    "confidence": 0.95,
+    "source_snippet": "ঠিকানা: আল-খোবার, সৌদি আরব"
+  },
+  "job_title": {
+    "value": "Heavy Vehicle Driver",
+    "confidence": 0.98,
+    "source_snippet": "কাজের ধরন: ভারী যানবাহন চালক"
+  },
+  "salary_amount": {
+    "value": 2200,
+    "confidence": 0.98,
+    "source_snippet": "বেসিক বেতন: ২২০০ সৌদি রিয়াল"
+  },
+  "salary_currency": {
+    "value": "SAR",
+    "confidence": 0.98,
+    "source_snippet": "২২০০ SAR"
+  },
+  "fee_asked": {
+    "value": 180000,
+    "confidence": 0.92,
+    "source_snippet": "প্রসেসিং খরচ: ১,৮০,০০০ টাকা"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "১,৮০,০০০ BDT"
+  },
+  "visa_type": {
+    "value": "Driver Employment Visa",
+    "confidence": 0.98,
+    "source_snippet": "ভিসা: ড্রাইভিং কাজের ভিসা"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "মেয়াদ: ২৪ মাস"
+  },
+  "working_hours": {
+    "value": "8 hours/day",
+    "confidence": 0.95,
+    "source_snippet": "কাজের সময়: দিনে ৮ ঘণ্টা"
+  },
+  "accommodation": {
+    "value": "Furnished company housing provided",
+    "confidence": 0.95,
+    "source_snippet": "কোম্পানি আবাসন প্রদান করবে"
+  },
+  "return_ticket": {
+    "value": "Return ticket after 2 years",
+    "confidence": 0.95,
+    "source_snippet": "দ্বিবার্ষিক বিমান টিকিট নিয়োগকর্তা বহন করবে"
+  },
+  "agent_name": {
+    "value": "Sonali Manpower Services Ltd.",
+    "confidence": 0.94,
+    "source_snippet": "এজেন্সি: সোনালী ম্যানপাওয়ার সার্ভিসেস"
+  },
+  "license_number": {
+    "value": "RL-1857",
+    "confidence": 0.96,
+    "source_snippet": "লাইসেন্স: RL-1857"
+  },
+  "payment_method": {
+    "value": "Cross cheque to agency account",
+    "confidence": 0.93,
+    "source_snippet": "ব্যাংক ক্রস চেকের মাধ্যমে লেনদেন"
+  },
+  "contact_channel": {
+    "value": "Motijheel C/A, Dhaka",
+    "confidence": 0.92,
+    "source_snippet": "অফিস: মতিঝিল বাণিজ্যিক এলাকা, ঢাকা"
+  },
+  "raw_red_flag_clauses": []
+}

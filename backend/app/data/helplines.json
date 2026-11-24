@@ -1,0 +1,41 @@
+{
+  "retrieved": "2026-11-24",
+  "source_url": "https://bmet.gov.bd/",
+  "helplines": [
+    {
+      "name_en": "Probashbandhu call centre",
+      "name_bn": "প্রবাসবন্ধু কল সেন্টার",
+      "number": "16135",
+      "note_en": "Toll-free in Bangladesh.",
+      "note_bn": "বাংলাদেশে টোল-ফ্রি।"
+    },
+    {
+      "name_en": "Probashbandhu from abroad",
+      "name_bn": "প্রবাসবন্ধু (বিদেশ থেকে)",
+      "number": "+88 09610 102 030",
+      "note_en": "From outside Bangladesh.",
+      "note_bn": "বাংলাদেশের বাইরে থেকে।"
+    },
+    {
+      "name_en": "BMET office phone",
+      "name_bn": "বিএমইটি অফিস ফোন",
+      "number": "02-49357972",
+      "note_en": "Listed on bmet.gov.bd.",
+      "note_bn": "বিএমইটি ওয়েবসাইটে তালিকাভুক্ত।"
+    },
+    {
+      "name_en": "Government information service",
+      "name_bn": "সরকারি তথ্য সেবা",
+      "number": "333",
+      "note_en": "National information hotline.",
+      "note_bn": "জাতীয় তথ্য হটলাইন।"
+    },
+    {
+      "name_en": "Emergency services",
+      "name_bn": "জরুরি সেবা",
+      "number": "999",
+      "note_en": "Police, fire and ambulance.",
+      "note_bn": "পুলিশ, ফায়ার ও অ্যাম্বুলেন্স।"
+    }
+  ]
+}

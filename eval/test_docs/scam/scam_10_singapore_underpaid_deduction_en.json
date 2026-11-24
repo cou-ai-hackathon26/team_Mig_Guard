@@ -1,0 +1,94 @@
+{
+  "doc_id": "scam_10_singapore_underpaid_deduction_en",
+  "language": "en",
+  "document_type": "offer_letter",
+  "destination": {
+    "value": "Singapore",
+    "confidence": 0.98,
+    "source_snippet": "Destination: Singapore"
+  },
+  "employer": {
+    "value": "Singa Facility Ltd",
+    "confidence": 0.8,
+    "source_snippet": "Company: Singa Facility Ltd"
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "General Cleaner",
+    "confidence": 0.97,
+    "source_snippet": "Position: General Cleaner"
+  },
+  "salary_amount": {
+    "value": 300,
+    "confidence": 0.98,
+    "source_snippet": "Basic Salary: 300 SGD per month"
+  },
+  "salary_currency": {
+    "value": "SGD",
+    "confidence": 0.98,
+    "source_snippet": "300 SGD"
+  },
+  "fee_asked": {
+    "value": 450000,
+    "confidence": 0.92,
+    "source_snippet": "Agency Processing Fee: BDT 4,50,000"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "BDT"
+  },
+  "visa_type": {
+    "value": "Work Permit",
+    "confidence": 0.97,
+    "source_snippet": "Work Permit"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "return_ticket": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "agent_name": {
+    "value": "Direct Singapore Agency",
+    "confidence": 0.8,
+    "source_snippet": "Direct Singapore Agency"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Cash hand to hand",
+    "confidence": 0.95,
+    "source_snippet": "Full payment in cash hand to hand"
+  },
+  "contact_channel": {
+    "value": "WhatsApp only",
+    "confidence": 0.94,
+    "source_snippet": "WhatsApp only contact"
+  },
+  "raw_red_flag_clauses": [
+    "Monthly salary deduction of 150 SGD for visa and training cost debt.",
+    "Company will hold passport during entire employment period."
+  ]
+}

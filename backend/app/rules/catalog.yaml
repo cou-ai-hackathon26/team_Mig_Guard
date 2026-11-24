@@ -1,0 +1,213 @@
+# Rule catalog used by verification, scoring and explanations.
+# Weights are risk points (higher = more concern). Verdicts never use the word "safe".
+
+verdicts:
+  danger_min_score: 70
+  caution_min_score: 35
+
+rules:
+  R07_license:
+    severity: high
+    weight: 30
+    title_en: "Recruiting licence could not be confirmed as active"
+    title_bn: "রিক্রুটিং লাইসেন্স সক্রিয় বলে নিশ্চিত করা যায়নি"
+    explanation_en: "A licensed Bangladeshi recruiting agency must have an RL number that is active on the public BMET list."
+    explanation_bn: "বাংলাদেশের রিক্রুটিং এজেন্সির একটি সক্রিয় আরএল নম্বর থাকতে হয়, যা বিএমইটির তালিকায় পাওয়া যায়।"
+    question_en: "Please show your RL number, office address and a copy of the BMET licence."
+    question_bn: "আপনার আরএল নম্বর, অফিসের ঠিকানা এবং বিএমইটি লাইসেন্সের কপি দেখাবেন কি?"
+    kb_ids: ["licensed-agent-required", "helpline-16135"]
+
+  R03_fee_cap:
+    severity: high
+    weight: 28
+    title_en: "Recruitment fee is above the published ceiling"
+    title_bn: "নিয়োগ ফি প্রকাশিত সর্বোচ্চ সীমার উপরে"
+    explanation_en: "Bangladesh can set a maximum migration cost by destination. A fee above that published ceiling is a red flag."
+    explanation_bn: "গন্তব্য দেশ অনুযায়ী বাংলাদেশ সর্বোচ্চ মাইগ্রেশন খরচ নির্ধারণ করতে পারে। সেই সীমার বেশি ফি একটি সতর্ক সংকেত।"
+    question_en: "Please show the posted BMET fee for this country and give a stamped receipt."
+    question_bn: "এই দেশের জন্য বিএমইটিতে টানানো ফি এবং স্ট্যাম্পযুক্ত রসিদ দেখাবেন কি?"
+    kb_ids: ["oe-act-s21-fee-cap", "receipt-and-bank"]
+
+  R05_salary:
+    severity: high
+    weight: 26
+    title_en: "Advertised salary is far above typical public ranges"
+    title_bn: "ঘোষিত বেতন সাধারণ প্রকাশিত সীমার চেয়ে অনেক বেশি"
+    explanation_en: "Pay that is many times the usual range for this job and country is often used to rush a worker into paying."
+    explanation_bn: "এই কাজ ও দেশের সাধারণ সীমার চেয়ে অনেক গুণ বেশি বেতন প্রায়ই তাড়াহুড়ো করে টাকা নেওয়ার ফাঁদ।"
+    question_en: "Please show a written wage, overtime rules, and the employer's demand letter."
+    question_bn: "লিখিত বেতন, ওভারটাইম নিয়ম এবং নিয়োগকর্তার ডিমান্ড লেটার দেখাবেন কি?"
+    kb_ids: ["unrealistic-pay", "scam-compound-lure"]
+
+  R06_missing_clauses:
+    severity: medium
+    weight: 6
+    max_weight: 24
+    title_en: "Important contract items are missing"
+    title_bn: "চুক্তির গুরুত্বপূর্ণ বিষয় অনুপস্থিত"
+    explanation_en: "A complete offer names the employer, job, pay, hours, duration, housing and how you can return. Missing items should be written down before you pay."
+    explanation_bn: "একটি পূর্ণাঙ্গ অফারে নিয়োগকর্তা, কাজ, বেতন, সময়, মেয়াদ, থাকার ব্যবস্থা এবং ফেরার নিয়ম থাকে। যা নেই, টাকা দেওয়ার আগে লিখে নিন।"
+    question_en: "Please give a written contract that includes every missing item on this list."
+    question_bn: "এই তালিকায় যা নেই, সেগুলোসহ একটি লিখিত চুক্তি দেবেন কি?"
+    kb_ids: ["contract-must-be-written"]
+
+# Member C rules catalog entries (for rules engine)
+R01_NO_WRITTEN_CONTRACT:
+  severity: high
+  weight: 25
+  title_en: "No formal written contract"
+  title_bn: "কোনো আনুষ্ঠানিক লিখিত চুক্তিপত্র নেই"
+  explanation_en: "The job offer is communicated via social media or chat messages without an official employment contract."
+  explanation_bn: "অফারটি কোনো আনুষ্ঠানিক নিয়োগপত্র ছাড়া শুধুমাত্র সোশ্যাল মিডিয়া বা চ্যাট মেসেজে দেওয়া হয়েছে।"
+  question_en: "Can you provide a formal, written contract with an official letterhead and stamp?"
+  question_bn: "আপনারা কি প্রাতিষ্ঠানিক প্যাড ও সিলমোহরযুক্ত লিখিত চুক্তিপত্র দিতে পারবেন?"
+
+R02_NON_WORK_VISA:
+  severity: high
+  weight: 25
+  title_en: "Tourist or visit visa offered for foreign work"
+  title_bn: "কাজের জন্য ট্যুরিস্ট বা ভিজিট ভিসা প্রদান"
+  explanation_en: "Entering a country on a tourist or visit visa to work is illegal and leaves you without legal protections."
+  explanation_bn: "কাজের উদ্দেশ্যে ট্যুরিস্ট বা ভিজিট ভিসায় বিদেশ যাওয়া সম্পূর্ণ বেআইনি এবং এতে আইনি সুরক্ষা থাকে না।"
+  question_en: "Will you provide an official government-approved employment/work visa before departure?"
+  question_bn: "বিদেশে যাওয়ার আগেই কি আমাকে সরকারিভাবে অনুমোদিত কাজের ভিসা (Work Visa) দেওয়া হবে?"
+
+R03_CASH_OR_UNSPECIFIED_FEE:
+  severity: high
+  weight: 20
+  title_en: "Payment requested in cash or without receipt"
+  title_bn: "নগদে টাকা চাওয়া হয়েছে অথবা কোনো রসিদ ছাড়া"
+  explanation_en: "Paying cash without an official money receipt leaves no legal proof of payment."
+  explanation_bn: "অফিসিয়াল রসিদ ছাড়া নগদে লেনদেন করলে পরবর্তীতে টাকা ফেরত বা আইনি ব্যবস্থা নেওয়া অসম্ভব হয়ে পড়ে।"
+  question_en: "Can I pay through an official bank transfer and receive an official money receipt?"
+  question_bn: "আমি কি এজেন্সির ব্যাংক অ্যাকাউন্টে টাকা জমা দিতে পারব এবং অফিসিয়াল রসিদ পাব?"
+
+R04_HIGH_RISK_SCAM_PATTERN:
+  severity: high
+  weight: 30
+  title_en: "High-risk human trafficking or cyber-scam pattern detected"
+  title_bn: "মানবপাচার বা সাইবার স্ক্যামের ঝুঁকিপূর্ণ ফাঁদ শনাক্ত হয়েছে"
+  explanation_en: "Customer service or data entry jobs in this country match known cyber-scam compound recruitment patterns."
+  explanation_bn: "এই দেশে কাস্টমার সার্ভিস বা ডাটা এন্ট্রি কাজের বিজ্ঞাপন আন্তর্জাতিক সাইবার স্ক্যাম চক্রের ফাঁদের সাথে মিলে যায়।"
+  question_en: "Is this job verified through the Bangladesh Embassy in that country?"
+  question_bn: "এই কাজের নিয়োগপত্রটি কি সংশ্লিষ্ট দেশের বাংলাদেশ দূতাবাস কর্তৃক সত্যায়িত?"
+
+R05_UNREALISTIC_SALARY:
+  severity: high
+  weight: 20
+  title_en: "Unrealistically high salary advertised"
+  title_bn: "অস্বাভাবিক বেশি বেতন দেওয়ার প্রতিশ্রুতি"
+  explanation_en: "Promising huge salaries for basic skills is a classic lure used by fraudulent brokers."
+  explanation_bn: "সাধারণ কোনো কাজের জন্য অস্বাভাবিক বেশি বেতনের প্রলোভন প্রতারক চক্রের অন্যতম প্রধান ফাঁদ।"
+  question_en: "What is the standard minimum wage in the destination country for this exact job?"
+  question_bn: "গন্তব্য দেশের সরকারি নিয়ম অনুযায়ী এই কাজের ন্যূনতম মূল বেতন (Basic Salary) কত?"
+
+R06_MISSING_CRITICAL_CLAUSES:
+  severity: high
+  weight: 20
+  title_en: "Essential contract clauses are completely missing"
+  title_bn: "চুক্তিপত্রের প্রয়োজনীয় মৌলিক শর্তগুলো অনুপস্থিত"
+  explanation_en: "Working hours, accommodation, overtime, and return tickets must be clearly stated in writing."
+  explanation_bn: "কাজের সময়, থাকার ব্যবস্থা, ওভারটাইম এবং দেশে ফেরার টিকিটের মতো জরুরি তথ্য এখানে লেখা নেই।"
+  question_en: "Can you add working hours, overtime pay, accommodation, and return ticket terms in writing?"
+  question_bn: "কাজের সময়, ওভারটাইম, থাকা-খাওয়া এবং ফেরার টিকিটের কথা লিখিতভাবে যুক্ত করবেন কি?"
+
+R07_MISSING_AGENCY_LICENSE:
+  severity: high
+  weight: 20
+  title_en: "No government Recruiting License (RL) number"
+  title_bn: "সরকারি লাইসেন্স (RL) নম্বর উল্লেখ নেই"
+  explanation_en: "No valid BMET Recruiting License number is shown to verify the agent."
+  explanation_bn: "এজেন্ট বা প্রতিষ্ঠানের সরকারি রিক্রুটিং লাইসেন্স (RL) নম্বর এখানে দেওয়া নেই।"
+  question_en: "What is your BMET Recruiting License (RL) number so I can verify it?"
+  question_bn: "আপনাদের সরকারি রিক্রুটিং লাইসেন্স (RL) নম্বর কত, যাতে আমি যাচাই করতে পারি?"
+
+R08_SIGN_ON_ARRIVAL:
+  severity: high
+  weight: 25
+  title_en: "Contract to be signed only on arrival"
+  title_bn: "বিদেশে পৌঁছানোর পর চুক্তিপত্রে স্বাক্ষরের শর্ত"
+  explanation_en: "Signing a contract after arrival exposes you to contract substitution with lower pay."
+  explanation_bn: "বিদেশে যাওয়ার পর চুক্তি সই করতে বললে সেখানে গিয়ে কম বেতন বা ভিন্ন কাজে বাধ্য করার ঝুঁকি থাকে।"
+  question_en: "Why can I not read and sign the final contract here in Bangladesh before departure?"
+  question_bn: "বিদেশে যাওয়ার আগেই বাংলাদেশে বসে কেন মূল চুক্তিপত্রে সই করা যাবে না?"
+
+R09_PASSPORT_RETENTION:
+  severity: high
+  weight: 25
+  title_en: "Passport retention clause detected"
+  title_bn: "পাসপোর্ট জমা রাখার শর্ত রয়েছে"
+  explanation_en: "Employers or agents holding your passport restricts your freedom and is a major trafficking indicator."
+  explanation_bn: "নিয়োগকর্তা বা এজেন্টের কাছে পাসপোর্ট জমা রাখা আইনবিরোধী এবং এটি শোষণের বড় লক্ষণ।"
+  question_en: "Will I be allowed to keep my own passport with me at all times?"
+  question_bn: "আমি কি সবসময় আমার পাসপোর্ট নিজের কাছে রাখতে পারব?"
+
+R11_PRESSURE_TACTICS:
+  severity: medium
+  weight: 15
+  title_en: "Urgency or pressure tactics used"
+  title_bn: "তাড়াহুড়ো বা চাপ প্রয়োগ করা হচ্ছে"
+  explanation_en: "Phrases like 'pay today' or 'limited seats' are used to stop you from verifying the offer."
+  explanation_bn: "'আজই টাকা দিন' বা 'সিট শেষ হয়ে যাচ্ছে'—এমন চাপ দিয়ে আপনাকে যাচাই করার সুযোগ দেওয়া হচ্ছে না।"
+  question_en: "Can you give me 3 days to verify this offer with BMET before I decide?"
+  question_bn: "সিদ্ধান্ত নেওয়ার আগে সরকারি অফিসে কাগজপত্র যাচাই করার জন্য আমাকে কি ৩ দিন সময় দেবেন?"
+
+R12_PERSONAL_MOBILE_PAYMENT:
+  severity: high
+  weight: 25
+  title_en: "Payment to personal mobile money or before visa"
+  title_bn: "ব্যক্তিগত নম্বরে বা ভিসার আগেই টাকা দাবি"
+  explanation_en: "Sending money to a personal bKash/Nagad number or paying before seeing a verified visa is unsafe."
+  explanation_bn: "ব্যক্তিগত বিকাশ/নগদ নম্বরে বা ভিসা যাচাইয়ের আগেই টাকা পাঠানো অত্যন্ত ঝুঁকিপূর্ণ।"
+  question_en: "Why is payment requested to a personal number instead of a registered company account?"
+  question_bn: "কোম্পানির ব্যাংক অ্যাকাউন্টের বদলে ব্যক্তিগত নম্বরে টাকা চাওয়া হচ্ছে কেন?"
+
+R05_UNREALISTIC_SALARY:
+  severity: high
+  weight: 20
+  title_en: "Salary is unrealistic for this role and country"
+  title_bn: "এই কাজ ও দেশের তুলনায় বেতন অস্বাভাবিক"
+  explanation_en: "The promised salary is far higher than normal market rates (common scam bait) or below legal minimums."
+  explanation_bn: "এই দেশে এই কাজের স্বাভাবিক বেতনের তুলনায় এখানে অস্বাভাবিক বেশি বা কম বেতনের কথা বলা হয়েছে।"
+  question_en: "Why is the offered salary so different from the official minimum wage for this role?"
+  question_bn: "এই কাজের সরকারি নির্ধারিত বেতনের চেয়ে এখানে এত বেশি বা কম বেতন লেখা কেন?"
+
+R10_SALARY_DEDUCTION_DEBT_BOND:
+  severity: high
+  weight: 25
+  title_en: "Salary deduction or debt-bondage clause"
+  title_bn: "বেতন কেটে রাখা বা ঋণের ফাঁদের শর্ত রয়েছে"
+  explanation_en: "Deducting recruitment, visa, or training costs from your monthly salary can trap you in debt bondage."
+  explanation_bn: "ভিসা বা যাতায়াত খরচের নামে মাসিক বেতন থেকে টাকা কেটে নেওয়ার শর্ত থাকলে আপনি ঋণের ফাঁদে পড়তে পারেন।"
+  question_en: "Will I receive my full agreed salary every month with zero deductions for visa or agency fees?"
+  question_bn: "ভিসা বা এজেন্সি খরচের নামে কোনো টাকা না কেটে প্রতি মাসে পুরো বেতন দেওয়া হবে কি?"
+
+R13_SOCIAL_MEDIA_ONLY_NO_OFFICE:
+  severity: medium
+  weight: 15
+  title_en: "Contact only via social media with no office address"
+  title_bn: "অফিসের ঠিকানা ছাড়া শুধু হোয়াটসঅ্যাপ বা ফেসবুকে যোগাযোগ"
+  explanation_en: "Recruiters who operate only on WhatsApp, Telegram, or Facebook without a physical office are hard to trace."
+  explanation_bn: "স্থায়ী অফিসের ঠিকানা ছাড়া শুধুমাত্র হোয়াটসঅ্যাপ, টেলিগ্রাম বা ফেসবুকে যোগাযোগ করলে প্রতারকের হদিস পাওয়া যায় না।"
+  question_en: "What is your registered office address in Bangladesh where I can visit in person?"
+  question_bn: "বাংলাদেশে আপনাদের নিবন্ধিত অফিসের সঠিক ঠিকানা কোথায়, যেখানে আমি সরাসরি আসতে পারি?"
+
+R14_TOO_GOOD_TO_BE_TRUE_BUNDLE:
+  severity: high
+  weight: 25
+  title_en: "Free visa, free ticket, and unusually high pay bundle"
+  title_bn: "ফ্রি ভিসা, ফ্রি টিকিট ও অস্বাভাবিক উচ্চ বেতনের প্রলোভন"
+  explanation_en: "Combining zero upfront cost, free airfare, and high pay without qualifications is a classic trafficking lure."
+  explanation_bn: "কোনো যোগ্যতা ছাড়াই ফ্রি ভিসা, ফ্রি বিমান টিকিট এবং অনেক বেশি বেতনের লোভ দেখানো পাচারকারীদের পুরনো কৌশল।"
+  question_en: "Who is paying for the visa and air ticket, and can you show the official employer demand letter?"
+  question_bn: "ভিসা ও বিমান টিকিটের খরচ কে দিচ্ছে এবং কোম্পানির অফিশিয়াল ডিমান্ড লেটার কি দেখাতে পারবেন?"
+
+R15_UNVERIFIABLE_EMPLOYER:
+  severity: medium
+  weight: 15
+  title_en: "Employer name or physical address cannot be verified"
+  title_bn: "নিয়োগকারী কোম্পানি বা ঠিকানা যাচাই করা যাচ্ছে না"
+  explanation_en: "The offer does not state a clear company name or workplace address."
+  explanation_bn: "চুক্তিপত্রে নিয়োগকারী কোম্পানির পূর্ণ নাম বা কাজের জায়গার সঠিক ঠিকানা দেওয়া নেই।"
+  question_en: "What is the exact registered name, address, and phone number of the foreign employer?"
+  question_bn: "বিদেশের নিয়োগকারী কোম্পানির পূর্ণ নাম, ঠিকানা এবং ফোন নম্বর কী?"

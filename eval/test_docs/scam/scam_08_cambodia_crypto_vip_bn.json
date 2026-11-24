@@ -1,0 +1,95 @@
+{
+  "doc_id": "scam_08_cambodia_crypto_vip_bn",
+  "language": "bn",
+  "document_type": "chat_screenshot",
+  "destination": {
+    "value": "Cambodia",
+    "confidence": 0.98,
+    "source_snippet": "কর্মস্থল: নমপেন ও সিহানুকভিল, কম্বোডিয়া"
+  },
+  "employer": {
+    "value": null,
+    "confidence": 0.15,
+    "source_snippet": null
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Crypto Trading Support",
+    "confidence": 0.97,
+    "source_snippet": "কাজ: ক্রিপ্টো কারেন্সি অনলাইন সাপোর্ট"
+  },
+  "salary_amount": {
+    "value": 3000,
+    "confidence": 0.98,
+    "source_snippet": "বেতন: ৩০০০ ডলার (৩ লাখ টাকার বেশি)"
+  },
+  "salary_currency": {
+    "value": "USD",
+    "confidence": 0.98,
+    "source_snippet": "৩০০০ USD"
+  },
+  "fee_asked": {
+    "value": 0,
+    "confidence": 0.9,
+    "source_snippet": "ফ্রি ভিসা ও ফ্রি বিমান টিকিট"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.9,
+    "source_snippet": "ফ্রি"
+  },
+  "visa_type": {
+    "value": "Tourist Visa",
+    "confidence": 0.98,
+    "source_snippet": "ট্যুরিস্ট ভিসায় ফ্লাইট হবে"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": "VIP Dormitory",
+    "confidence": 0.85,
+    "source_snippet": "ভিআইপি ডরমিটরি ফ্রি"
+  },
+  "return_ticket": {
+    "value": "Free ticket",
+    "confidence": 0.92,
+    "source_snippet": "ফ্রি টিকিট"
+  },
+  "agent_name": {
+    "value": "Boss Chen Recruiting",
+    "confidence": 0.8,
+    "source_snippet": "টেলিগ্রাম বস চেন"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Personal Rocket number",
+    "confidence": 0.95,
+    "source_snippet": "ব্যক্তিগত রকেট নম্বরে ২০,০০০ টাকা পাঠান"
+  },
+  "contact_channel": {
+    "value": "Telegram & WhatsApp",
+    "confidence": 0.96,
+    "source_snippet": "টেলিগ্রামে যোগাযোগ করুন"
+  },
+  "raw_red_flag_clauses": [
+    "ফ্রি ভিসা, ফ্রি টিকিট!",
+    "আজই টাকা পাঠান, সীমিত সিট!",
+    "কোম্পানি নিরাপত্তার জন্য পাসপোর্ট জমা রাখবে।"
+  ]
+}

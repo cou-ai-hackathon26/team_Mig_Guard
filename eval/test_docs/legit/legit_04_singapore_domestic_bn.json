@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_04_singapore_domestic_bn",
+  "language": "bn",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "Singapore",
+    "confidence": 0.98,
+    "source_snippet": "কর্মস্থল: সিঙ্গাপুর"
+  },
+  "employer": {
+    "value": "Tan Care Services Pte Ltd",
+    "confidence": 0.96,
+    "source_snippet": "নিয়োগকর্তা: তান কেয়ার সার্ভিসেস"
+  },
+  "employer_address": {
+    "value": "Orchard Road, Singapore",
+    "confidence": 0.95,
+    "source_snippet": "ঠিকানা: অর্চার্ড রোড, সিঙ্গাপুর"
+  },
+  "job_title": {
+    "value": "Caregiver Helper",
+    "confidence": 0.97,
+    "source_snippet": "পদ: কেয়ারগিভার হেলপার"
+  },
+  "salary_amount": {
+    "value": 700,
+    "confidence": 0.98,
+    "source_snippet": "বেতন: ৭০০ সিঙ্গাপুর ডলার"
+  },
+  "salary_currency": {
+    "value": "SGD",
+    "confidence": 0.98,
+    "source_snippet": "৭০০ SGD"
+  },
+  "fee_asked": {
+    "value": 110000,
+    "confidence": 0.91,
+    "source_snippet": "ফি: ১,১০,০০০ টাকা"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.91,
+    "source_snippet": "১,১০,০০০ BDT"
+  },
+  "visa_type": {
+    "value": "MOM Work Permit",
+    "confidence": 0.98,
+    "source_snippet": "ভিসা: সিঙ্গাপুর জনশক্তি মন্ত্রণালয় ওয়ার্ক পারমিট"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "মেয়াদ: ২ বছর"
+  },
+  "working_hours": {
+    "value": "8 hours/day with weekly rest",
+    "confidence": 0.95,
+    "source_snippet": "কাজের সময়: দৈনিক ৮ ঘণ্টা ও সাপ্তাহিক ছুটি"
+  },
+  "accommodation": {
+    "value": "Private room and food provided",
+    "confidence": 0.95,
+    "source_snippet": "থাকা ও খাওয়ার সুব্যবস্থা"
+  },
+  "return_ticket": {
+    "value": "Provided on completion",
+    "confidence": 0.95,
+    "source_snippet": "চুক্তি শেষে বিমান টিকিট কোম্পানি দেবে"
+  },
+  "agent_name": {
+    "value": "Bengal Human Resources",
+    "confidence": 0.94,
+    "source_snippet": "রিক্রুটিং এজেন্সি: বেঙ্গল হিউম্যান রিসোর্সেস"
+  },
+  "license_number": {
+    "value": "RL-6789",
+    "confidence": 0.96,
+    "source_snippet": "লাইসেন্স নং: RL-6789"
+  },
+  "payment_method": {
+    "value": "Official bank draft",
+    "confidence": 0.93,
+    "source_snippet": "ব্যাংক ড্রাফটের মাধ্যমে রসিদসহ পরিশোধ"
+  },
+  "contact_channel": {
+    "value": "Gulshan-2, Dhaka Office",
+    "confidence": 0.92,
+    "source_snippet": "অফিস: গুলশান-২, ঢাকা"
+  },
+  "raw_red_flag_clauses": []
+}

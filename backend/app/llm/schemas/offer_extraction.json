@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OfferExtraction",
+  "type": "object",
+  "properties": {
+    "document_type": {
+      "type": "string",
+      "enum": ["formal_contract", "offer_letter", "chat_screenshot", "social_post", "unknown"]
+    },
+    "destination": { "$ref": "#/$defs/extractedField" },
+    "employer": { "$ref": "#/$defs/extractedField" },
+    "employer_address": { "$ref": "#/$defs/extractedField" },
+    "job_title": { "$ref": "#/$defs/extractedField" },
+    "salary_amount": { "$ref": "#/$defs/extractedNumberField" },
+    "salary_currency": { "$ref": "#/$defs/extractedField" },
+    "fee_asked": { "$ref": "#/$defs/extractedNumberField" },
+    "fee_currency": { "$ref": "#/$defs/extractedField" },
+    "visa_type": { "$ref": "#/$defs/extractedField" },
+    "duration": { "$ref": "#/$defs/extractedField" },
+    "working_hours": { "$ref": "#/$defs/extractedField" },
+    "accommodation": { "$ref": "#/$defs/extractedField" },
+    "return_ticket": { "$ref": "#/$defs/extractedField" },
+    "agent_name": { "$ref": "#/$defs/extractedField" },
+    "license_number": { "$ref": "#/$defs/extractedField" },
+    "payment_method": { "$ref": "#/$defs/extractedField" },
+    "contact_channel": { "$ref": "#/$defs/extractedField" },
+    "raw_red_flag_clauses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Verbatim sentences mentioning passport holding, signing on arrival, pay today urgency, or salary deductions."
+    }
+  },
+  "$defs": {
+    "extractedField": {
+      "type": "object",
+      "properties": {
+        "value": { "type": ["string", "null"] },
+        "confidence": { "type": "number" },
+        "source_snippet": { "type": ["string", "null"] }
+      },
+      "required": ["value", "confidence", "source_snippet"]
+    },
+    "extractedNumberField": {
+      "type": "object",
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "confidence": { "type": "number" },
+        "source_snippet": { "type": ["string", "null"] }
+      },
+      "required": ["value", "confidence", "source_snippet"]
+    }
+  }
+}

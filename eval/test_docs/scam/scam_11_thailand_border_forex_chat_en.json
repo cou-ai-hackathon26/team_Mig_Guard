@@ -1,0 +1,95 @@
+{
+  "doc_id": "scam_11_thailand_border_forex_chat_en",
+  "language": "en",
+  "document_type": "chat_screenshot",
+  "destination": {
+    "value": "Myanmar",
+    "confidence": 0.98,
+    "source_snippet": "Location: Myawaddy, Myanmar-Thai border"
+  },
+  "employer": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Forex Account Manager",
+    "confidence": 0.97,
+    "source_snippet": "Job: Forex Trading Support Assistant"
+  },
+  "salary_amount": {
+    "value": 2800,
+    "confidence": 0.98,
+    "source_snippet": "Monthly Earnings: $2,800 USD guaranteed"
+  },
+  "salary_currency": {
+    "value": "USD",
+    "confidence": 0.98,
+    "source_snippet": "$2,800 USD"
+  },
+  "fee_asked": {
+    "value": 0,
+    "confidence": 0.9,
+    "source_snippet": "Free ticket and free visa provided"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.9,
+    "source_snippet": "Free"
+  },
+  "visa_type": {
+    "value": "Tourist Visa",
+    "confidence": 0.98,
+    "source_snippet": "Enter Bangkok on tourist visa, road transfer to office"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": "Free campus living",
+    "confidence": 0.85,
+    "source_snippet": "Free food and accommodation"
+  },
+  "return_ticket": {
+    "value": "Free flight",
+    "confidence": 0.92,
+    "source_snippet": "Free ticket provided"
+  },
+  "agent_name": {
+    "value": "HR Alex",
+    "confidence": 0.8,
+    "source_snippet": "HR Alex via Telegram"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Send 25,000 BDT to personal bKash before visa",
+    "confidence": 0.95,
+    "source_snippet": "Personal bKash 01900000000"
+  },
+  "contact_channel": {
+    "value": "Telegram only",
+    "confidence": 0.95,
+    "source_snippet": "Telegram @alex_forex_hr"
+  },
+  "raw_red_flag_clauses": [
+    "Free visa, free ticket!",
+    "Pay today, limited seats for upcoming batch!",
+    "Submit passport to employer on arrival."
+  ]
+}

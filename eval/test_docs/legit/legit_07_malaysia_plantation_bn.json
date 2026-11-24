@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_07_malaysia_plantation_bn",
+  "language": "bn",
+  "document_type": "offer_letter",
+  "destination": {
+    "value": "Malaysia",
+    "confidence": 0.98,
+    "source_snippet": "কর্মসংস্থান এলাকা: জোহর, মালয়েশিয়া"
+  },
+  "employer": {
+    "value": "Johor Agro Plantation Berhad",
+    "confidence": 0.97,
+    "source_snippet": "কোম্পানি: জোহর এগ্রো প্ল্যান্টেশন বারহাদ"
+  },
+  "employer_address": {
+    "value": "Kulai, Johor, Malaysia",
+    "confidence": 0.95,
+    "source_snippet": "ঠিকানা: কুলাই, জোহর, মালয়েশিয়া"
+  },
+  "job_title": {
+    "value": "Plantation Worker",
+    "confidence": 0.97,
+    "source_snippet": "কাজের পদবী: কৃষি খামার কর্মী"
+  },
+  "salary_amount": {
+    "value": 1750,
+    "confidence": 0.98,
+    "source_snippet": "মাসিক বেতন: ১৭৫০ রিঙ্গিত"
+  },
+  "salary_currency": {
+    "value": "MYR",
+    "confidence": 0.98,
+    "source_snippet": "১৭৫০ MYR"
+  },
+  "fee_asked": {
+    "value": 115000,
+    "confidence": 0.92,
+    "source_snippet": "সরকারি প্রসেসিং ফি: ১,১৫,০০০ টাকা"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "১,১৫,০০০ BDT"
+  },
+  "visa_type": {
+    "value": "Calling Visa Work Permit",
+    "confidence": 0.98,
+    "source_snippet": "ভিসা ধরন: কলিং ভিসা কৃষি ওয়ার্ক পারমিট"
+  },
+  "duration": {
+    "value": "3 Years",
+    "confidence": 0.96,
+    "source_snippet": "চুক্তি কাল: ৩৬ মাস"
+  },
+  "working_hours": {
+    "value": "8 hours/day",
+    "confidence": 0.95,
+    "source_snippet": "কাজের সময়: দৈনিক ৮ ঘণ্টা"
+  },
+  "accommodation": {
+    "value": "Company quarters provided",
+    "confidence": 0.95,
+    "source_snippet": "কোম্পানির নিজস্ব কোয়ার্টারে থাকা"
+  },
+  "return_ticket": {
+    "value": "Return airfare covered",
+    "confidence": 0.95,
+    "source_snippet": "ফেরার বিমান টিকিট কোম্পানি কর্তৃক প্রদানযোগ্য"
+  },
+  "agent_name": {
+    "value": "Delta International Recruiting",
+    "confidence": 0.94,
+    "source_snippet": "এজেন্সি: ডেল্টা ইন্টারন্যাশনাল"
+  },
+  "license_number": {
+    "value": "RL-7788",
+    "confidence": 0.96,
+    "source_snippet": "লাইসেন্স নম্বর: RL-7788"
+  },
+  "payment_method": {
+    "value": "Bank pay order with money receipt",
+    "confidence": 0.93,
+    "source_snippet": "এজেন্সির ব্যাংক একাউন্টে পে-অর্ডার"
+  },
+  "contact_channel": {
+    "value": "Panthapath, Dhaka",
+    "confidence": 0.92,
+    "source_snippet": "ঠিকানা: পান্থপথ, ঢাকা"
+  },
+  "raw_red_flag_clauses": []
+}

@@ -1,0 +1,87 @@
+{
+  "retrieved": "2026-11-24",
+  "caveat": "Indicative public ranges for screening unusually high advertised pay. Not official wage awards for every job. If destination or role cannot be matched, the salary check is unverifiable.",
+  "fx_to_bdt_approx": {
+    "note": "Rounded mid-market approximations for comparison only, not a bank rate.",
+    "BDT": 1,
+    "USD": 122,
+    "QAR": 33,
+    "SAR": 32,
+    "AED": 33,
+    "OMR": 317,
+    "KWD": 397,
+    "BHD": 324,
+    "MYR": 28,
+    "SGD": 94,
+    "EUR": 132
+  },
+  "benchmarks": [
+    {
+      "destination_aliases": ["qatar", "qa", "qat"],
+      "role_aliases": ["construction", "labour", "labor", "general worker", "cleaner", "driver", "factory", "helper"],
+      "currency": "QAR",
+      "period": "month",
+      "typical_low": 1000,
+      "typical_high": 2500,
+      "unrealistic_multiplier": 4,
+      "source": "Qatar non-discriminatory minimum wage QAR 1,000 plus food and housing allowances (Law No. 17 of 2020 / ILO summary).",
+      "source_url": "https://www.ilo.org/resource/news/qatar-s-new-minimum-wage-enters-force"
+    },
+    {
+      "destination_aliases": ["malaysia", "my"],
+      "role_aliases": ["construction", "plantation", "factory", "manufacturing", "general worker", "labour", "labor", "helper"],
+      "currency": "MYR",
+      "period": "month",
+      "typical_low": 1500,
+      "typical_high": 2800,
+      "unrealistic_multiplier": 4,
+      "source": "Malaysia national minimum wage framework (Ministry of Human Resources public notices). Used as a ceiling screen, not a job-specific contract rate.",
+      "source_url": "https://www.ilo.org/global/topics/wages/minimum-wages/lang--en/index.htm"
+    },
+    {
+      "destination_aliases": ["saudi arabia", "ksa", "saudi", "sa"],
+      "role_aliases": ["construction", "driver", "cleaner", "factory", "labour", "labor", "general worker", "helper"],
+      "currency": "SAR",
+      "period": "month",
+      "typical_low": 1000,
+      "typical_high": 3000,
+      "unrealistic_multiplier": 5,
+      "source": "Indicative private-sector range compiled for screening only; Saudi Arabia does not publish one private-sector minimum covering every occupation.",
+      "source_url": "https://www.ilo.org/resource/country-profiles"
+    },
+    {
+      "destination_aliases": ["uae", "united arab emirates", "dubai", "abu dhabi", "ae"],
+      "role_aliases": ["construction", "driver", "cleaner", "factory", "labour", "labor", "general worker", "helper"],
+      "currency": "AED",
+      "period": "month",
+      "typical_low": 800,
+      "typical_high": 2500,
+      "unrealistic_multiplier": 5,
+      "source": "Indicative range for screening; the UAE does not set a single federal private-sector minimum wage for all occupations.",
+      "source_url": "https://www.ilo.org/resource/country-profiles"
+    },
+    {
+      "destination_aliases": ["singapore", "sg"],
+      "role_aliases": ["construction", "shipyard", "process", "cleaner", "domestic", "labour", "labor"],
+      "currency": "SGD",
+      "period": "month",
+      "typical_low": 600,
+      "typical_high": 2500,
+      "unrealistic_multiplier": 5,
+      "source": "Work Permit pay varies by sector under Singapore MOM rules. Range used only to catch extreme advertised figures.",
+      "source_url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker"
+    },
+    {
+      "destination_aliases": ["cambodia", "kh", "myanmar", "mm", "laos", "la", "lao"],
+      "role_aliases": ["data entry", "online", "customer service", "crypto", "marketing", "social media", "it", "computer"],
+      "currency": "USD",
+      "period": "month",
+      "typical_low": 200,
+      "typical_high": 600,
+      "unrealistic_multiplier": 3,
+      "source": "Public reporting on scam-compound recruitment: high advertised online pay with no skills required is a trafficking indicator, not a labour-market wage.",
+      "source_url": "https://globalvoices.org/"
+    }
+  ]
+}
+

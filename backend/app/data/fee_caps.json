@@ -1,0 +1,29 @@
+{
+  "source_name": "Government-declared migration cost ceilings cited in IOM (2020) from BMET 2017, and Bangladesh Bank Research Department survey (January 2019)",
+  "source_urls": [
+    "https://bangladesh.iom.int/sites/g/files/tmzbdl1006/files/documents/report-mapping-of-recruitment-practices-in-bangladesh_iom_jan-2020.pdf",
+    "https://bdlaws.minlaw.gov.bd/act-1131/section-43288.html?lang=en"
+  ],
+  "retrieved": "2026-11-24",
+  "currency": "BDT",
+  "legal_basis": "Overseas Employment and Migrants Act 2013, section 21 — government may set a maximum migration cost by order.",
+  "caveat": "These figures are published historical ceilings (BMET 2017 / Bangladesh Bank 2019). A later destination-specific programme may use a different approved amount. If the destination is missing from this table, the fee-cap check is unverifiable. Confirm the current posted figure with BMET before paying.",
+  "caps": [
+    {"destination": "Bahrain", "aliases": ["bahrain", "bh"], "cap_bdt": 97780},
+    {"destination": "Oman", "aliases": ["oman", "om"], "cap_bdt": 100780},
+    {"destination": "Qatar", "aliases": ["qatar", "qa", "qat"], "cap_bdt": 100780},
+    {"destination": "Jordan", "aliases": ["jordan", "jo"], "cap_bdt": 102780},
+    {"destination": "Kuwait", "aliases": ["kuwait", "kw"], "cap_bdt": 106780},
+    {"destination": "United Arab Emirates", "aliases": ["uae", "united arab emirates", "dubai", "abu dhabi", "ae"], "cap_bdt": 107780},
+    {"destination": "Maldives", "aliases": ["maldives", "mv"], "cap_bdt": 115780},
+    {"destination": "Lebanon", "aliases": ["lebanon", "lb"], "cap_bdt": 117780},
+    {"destination": "Egypt", "aliases": ["egypt", "eg"], "cap_bdt": 120080},
+    {"destination": "Brunei", "aliases": ["brunei", "brunei darussalam", "bn"], "cap_bdt": 120780},
+    {"destination": "Iraq", "aliases": ["iraq", "iq"], "cap_bdt": 129540},
+    {"destination": "Libya", "aliases": ["libya", "ly"], "cap_bdt": 145780},
+    {"destination": "Malaysia", "aliases": ["malaysia", "my"], "cap_bdt": 160000},
+    {"destination": "Saudi Arabia", "aliases": ["saudi arabia", "ksa", "saudi", "sa"], "cap_bdt": 165000},
+    {"destination": "Russia", "aliases": ["russia", "russian federation", "ru"], "cap_bdt": 166640},
+    {"destination": "Singapore", "aliases": ["singapore", "sg"], "cap_bdt": 262270}
+  ]
+}

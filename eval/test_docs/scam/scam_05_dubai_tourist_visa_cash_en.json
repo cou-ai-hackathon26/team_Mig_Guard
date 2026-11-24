@@ -1,0 +1,94 @@
+{
+  "doc_id": "scam_05_dubai_tourist_visa_cash_en",
+  "language": "en",
+  "document_type": "offer_letter",
+  "destination": {
+    "value": "UAE",
+    "confidence": 0.98,
+    "source_snippet": "Destination: Dubai, UAE"
+  },
+  "employer": {
+    "value": "Al-Noor General Construction",
+    "confidence": 0.85,
+    "source_snippet": "Employer: Al-Noor General Construction"
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Mason Helper",
+    "confidence": 0.96,
+    "source_snippet": "Trade: Mason Helper"
+  },
+  "salary_amount": {
+    "value": 1100,
+    "confidence": 0.97,
+    "source_snippet": "Salary: 1,100 AED"
+  },
+  "salary_currency": {
+    "value": "AED",
+    "confidence": 0.97,
+    "source_snippet": "1,100 AED"
+  },
+  "fee_asked": {
+    "value": 280000,
+    "confidence": 0.92,
+    "source_snippet": "Total Fee: BDT 2,80,000 in cash"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.92,
+    "source_snippet": "BDT 2,80,000"
+  },
+  "visa_type": {
+    "value": "Tourist Visa 60 Days",
+    "confidence": 0.98,
+    "source_snippet": "Visa: 60-day Tourist Visa (convertible upon arrival)"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "return_ticket": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "agent_name": {
+    "value": "Tareq Bhai Middleman",
+    "confidence": 0.85,
+    "source_snippet": "Recruiter: Tareq Bhai"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "Cash only, hand to hand without receipt",
+    "confidence": 0.95,
+    "source_snippet": "Payment in full cash hand to hand, no receipt"
+  },
+  "contact_channel": {
+    "value": "WhatsApp only",
+    "confidence": 0.93,
+    "source_snippet": "Message on WhatsApp"
+  },
+  "raw_red_flag_clauses": [
+    "Sign on arrival after reaching Dubai airport.",
+    "Pay today or visa will be cancelled."
+  ]
+}

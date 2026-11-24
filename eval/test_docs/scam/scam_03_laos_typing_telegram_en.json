@@ -1,0 +1,95 @@
+{
+  "doc_id": "scam_03_laos_typing_telegram_en",
+  "language": "en",
+  "document_type": "chat_screenshot",
+  "destination": {
+    "value": "Laos",
+    "confidence": 0.98,
+    "source_snippet": "Location: Golden Triangle Special Economic Zone, Laos"
+  },
+  "employer": {
+    "value": null,
+    "confidence": 0.15,
+    "source_snippet": null
+  },
+  "employer_address": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "job_title": {
+    "value": "Data Entry Typing Operator",
+    "confidence": 0.97,
+    "source_snippet": "Job: English Data Entry Typing (No degree needed)"
+  },
+  "salary_amount": {
+    "value": 2000,
+    "confidence": 0.98,
+    "source_snippet": "Monthly: $2000 USD tax free"
+  },
+  "salary_currency": {
+    "value": "USD",
+    "confidence": 0.98,
+    "source_snippet": "$2000 USD"
+  },
+  "fee_asked": {
+    "value": 0,
+    "confidence": 0.9,
+    "source_snippet": "Zero processing fee, free visa"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.9,
+    "source_snippet": "Free"
+  },
+  "visa_type": {
+    "value": "Tourist Visa",
+    "confidence": 0.98,
+    "source_snippet": "Fly on 30-day Tourist Visa"
+  },
+  "duration": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "working_hours": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "accommodation": {
+    "value": "Dormitory",
+    "confidence": 0.85,
+    "source_snippet": "Free dorm provided"
+  },
+  "return_ticket": {
+    "value": "Free flight",
+    "confidence": 0.92,
+    "source_snippet": "Free one way ticket"
+  },
+  "agent_name": {
+    "value": "Agent Leo",
+    "confidence": 0.8,
+    "source_snippet": "Contact Agent Leo on Telegram"
+  },
+  "license_number": {
+    "value": null,
+    "confidence": 0.1,
+    "source_snippet": null
+  },
+  "payment_method": {
+    "value": "bKash personal number for registration",
+    "confidence": 0.94,
+    "source_snippet": "Send 20,000 BDT to personal bKash 01800000000"
+  },
+  "contact_channel": {
+    "value": "Telegram only",
+    "confidence": 0.95,
+    "source_snippet": "Telegram @leo_recruitment"
+  },
+  "raw_red_flag_clauses": [
+    "Free visa, free ticket!",
+    "Company will hold passport during contract period.",
+    "Pay today, limited seats available!"
+  ]
+}

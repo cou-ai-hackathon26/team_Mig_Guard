@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_02_uae_chef_bn",
+  "language": "bn",
+  "document_type": "offer_letter",
+  "destination": {
+    "value": "UAE",
+    "confidence": 0.97,
+    "source_snippet": "দেশ: সংযুক্ত আরব আমিরাত (দুবাই)"
+  },
+  "employer": {
+    "value": "Emirates Hospitality Group LLC",
+    "confidence": 0.96,
+    "source_snippet": "কোম্পানি: এমিরেটস হসপিটালিটি গ্রুপ এলএলসি"
+  },
+  "employer_address": {
+    "value": "Deira, Dubai, UAE",
+    "confidence": 0.94,
+    "source_snippet": "ঠিকানা: দেইরা, দুবাই"
+  },
+  "job_title": {
+    "value": "Assistant Cook",
+    "confidence": 0.97,
+    "source_snippet": "পদবী: সহকারী বাবুর্চি"
+  },
+  "salary_amount": {
+    "value": 1500,
+    "confidence": 0.98,
+    "source_snippet": "মাসিক বেতন: ১৫০০ দিরহাম"
+  },
+  "salary_currency": {
+    "value": "AED",
+    "confidence": 0.98,
+    "source_snippet": "১৫০০ দিরহাম"
+  },
+  "fee_asked": {
+    "value": 150000,
+    "confidence": 0.9,
+    "source_snippet": "সরকারি খরচ: ১,৫০,০০০ টাকা"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.9,
+    "source_snippet": "১,৫০,০০০ টাকা"
+  },
+  "visa_type": {
+    "value": "Employment Visa",
+    "confidence": 0.97,
+    "source_snippet": "ভিসার ধরন: এমপ্লয়মেন্ট ওয়ার্ক ভিসা"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "মেয়াদ: ২ বছর"
+  },
+  "working_hours": {
+    "value": "8 hours/day",
+    "confidence": 0.95,
+    "source_snippet": "কাজের সময়: দৈনিক ৮ ঘণ্টা"
+  },
+  "accommodation": {
+    "value": "Provided by company",
+    "confidence": 0.95,
+    "source_snippet": "থাকা ও খাওয়া: কোম্পানির"
+  },
+  "return_ticket": {
+    "value": "Provided after 2 years",
+    "confidence": 0.94,
+    "source_snippet": "ফেরার টিকিট: ২ বছর পর কোম্পানি দেবে"
+  },
+  "agent_name": {
+    "value": "Meghna International",
+    "confidence": 0.93,
+    "source_snippet": "এজেন্সি: মেঘনা ইন্টারন্যাশনাল"
+  },
+  "license_number": {
+    "value": "RL-5678",
+    "confidence": 0.94,
+    "source_snippet": "লাইসেন্স নম্বর: RL-5678"
+  },
+  "payment_method": {
+    "value": "Bank account with money receipt",
+    "confidence": 0.92,
+    "source_snippet": "ব্যাংক একাউন্টের মাধ্যমে পরিশোধযোগ্য"
+  },
+  "contact_channel": {
+    "value": "Office visit in Banani, Dhaka",
+    "confidence": 0.91,
+    "source_snippet": "অফিস: বনানী, ঢাকা"
+  },
+  "raw_red_flag_clauses": []
+}

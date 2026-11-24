@@ -1,0 +1,33 @@
+{
+  "brand": "Mig_Guard",
+  "tagline": "Before you go, verify.",
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "whyUs": "Why Mig_Guard",
+    "help": "Help",
+    "cta": "Check Your Offer"
+  },
+  "hero": {
+    "title1": "Every Job Offer Deserves a Closer Look.",
+    "title2": "Verify Before You Trust.",
+    "desc": "Understand the risks before you make your next career move.",
+    "cta": "Check My Job Offer",
+    "secondary": "Discover How It Works"
+  },
+  "upload": {
+    "title": "Let's check your job offer.",
+    "desc": "Upload your offer letter or paste the recruiter's message to get started.",
+    "drag": "Drag & drop your offer letter here",
+    "camera": "Take a photo",
+    "device": "Upload from device",
+    "paste": "Paste text",
+    "submit": "Start checking"
+  },
+  "verdict": {
+    "danger": "Potential danger detected",
+    "caution": "Needs closer attention",
+    "fewer_concerns": "Fewer concerns identified"
+  },
+  "disclaimer": "Mig_Guard provides informational support. It does not guarantee that a job offer is safe or replace verification with the relevant government authority."
+}

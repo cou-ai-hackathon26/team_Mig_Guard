@@ -1,0 +1,91 @@
+{
+  "doc_id": "legit_06_uae_security_en",
+  "language": "en",
+  "document_type": "formal_contract",
+  "destination": {
+    "value": "UAE",
+    "confidence": 0.98,
+    "source_snippet": "Location: Abu Dhabi, United Arab Emirates"
+  },
+  "employer": {
+    "value": "GuardWell Security Services LLC",
+    "confidence": 0.97,
+    "source_snippet": "Employer: GuardWell Security Services LLC"
+  },
+  "employer_address": {
+    "value": "Mussafah Industrial City, Abu Dhabi, UAE",
+    "confidence": 0.95,
+    "source_snippet": "Address: Mussafah, Abu Dhabi"
+  },
+  "job_title": {
+    "value": "Security Guard",
+    "confidence": 0.98,
+    "source_snippet": "Designation: Facility Security Guard"
+  },
+  "salary_amount": {
+    "value": 1800,
+    "confidence": 0.98,
+    "source_snippet": "Monthly Salary: 1,800 AED"
+  },
+  "salary_currency": {
+    "value": "AED",
+    "confidence": 0.98,
+    "source_snippet": "1,800 AED"
+  },
+  "fee_asked": {
+    "value": 140000,
+    "confidence": 0.91,
+    "source_snippet": "Fee: BDT 1,40,000"
+  },
+  "fee_currency": {
+    "value": "BDT",
+    "confidence": 0.91,
+    "source_snippet": "BDT"
+  },
+  "visa_type": {
+    "value": "Employment Visa",
+    "confidence": 0.98,
+    "source_snippet": "Visa Category: Ministry of Human Resources Employment Visa"
+  },
+  "duration": {
+    "value": "2 Years",
+    "confidence": 0.96,
+    "source_snippet": "Contract Term: 2 Years renewable"
+  },
+  "working_hours": {
+    "value": "8 hours/day, 6 days/week",
+    "confidence": 0.95,
+    "source_snippet": "Hours: 48 hours weekly"
+  },
+  "accommodation": {
+    "value": "Company accommodation with transport",
+    "confidence": 0.95,
+    "source_snippet": "Accommodation provided free"
+  },
+  "return_ticket": {
+    "value": "Two-way ticket provided",
+    "confidence": 0.95,
+    "source_snippet": "Return ticket after contract completion"
+  },
+  "agent_name": {
+    "value": "Asia Manpower Link",
+    "confidence": 0.94,
+    "source_snippet": "Agency: Asia Manpower Link"
+  },
+  "license_number": {
+    "value": "RL-3344",
+    "confidence": 0.96,
+    "source_snippet": "BMET RL: RL-3344"
+  },
+  "payment_method": {
+    "value": "Bank transfer to registered agency account",
+    "confidence": 0.93,
+    "source_snippet": "Bank pay order with stamped receipt"
+  },
+  "contact_channel": {
+    "value": "Dhanmondi, Dhaka",
+    "confidence": 0.92,
+    "source_snippet": "Office: Road 27, Dhanmondi, Dhaka"
+  },
+  "raw_red_flag_clauses": []
+}

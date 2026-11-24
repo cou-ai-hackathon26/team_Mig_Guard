@@ -1,0 +1,15 @@
+{
+  "high_risk_countries": ["cambodia", "myanmar", "laos"],
+  "scam_job_keywords": [
+    "data entry",
+    "crypto",
+    "cryptocurrency",
+    "online marketing",
+    "customer service",
+    "call center",
+    "typing job",
+    "telegram",
+    "forex"
+  ],
+  "source_note": "Based on UN and Global Voices reporting on Southeast Asian scam compounds (2026). See SOURCES.md."
+}
